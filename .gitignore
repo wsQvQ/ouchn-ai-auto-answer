@@ -1,13 +1,21 @@
-# 私有变体与本地调试工具：绝不随开源发布
-国开AI自动答题_内部版_*.user.js
-patch/
+# 私有变体 / 本地脚本 / 调试工具：绝不随开源发布（放这两个目录下即自动忽略）
+/private/
+/local/
+/patch/
 *.bak
 *.tmp
 node_modules/
 .DS_Store
 Thumbs.db
 
-# 任何含密钥/密码的本地文件
+# 任何含密钥、口令、凭据的本地文件
 .credentials.yaml
+.credentials*
 *secret*
 *.key
+*.pem
+
+# 编辑器 / 系统杂项
+.vscode/
+.idea/
+desktop.ini
