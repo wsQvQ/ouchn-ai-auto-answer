@@ -1,0 +1,13 @@
+# 私有变体与本地调试工具：绝不随开源发布
+国开AI自动答题_内部版_*.user.js
+patch/
+*.bak
+*.tmp
+node_modules/
+.DS_Store
+Thumbs.db
+
+# 任何含密钥/密码的本地文件
+.credentials.yaml
+*secret*
+*.key
